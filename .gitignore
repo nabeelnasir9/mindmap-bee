@@ -1,0 +1,124 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual Environment directories
+venv/
+mevenv/
+env/
+.venv/
+.env/
+
+# Editor directories and files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+# Usually these files are written by a python script from a template
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+*.tmp
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Environment variables files
+.env
+.env.*
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Caches
+*.bak
+*.swp
+*.tmp
+
+# macOS files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Logs
+*.log
+
+# Database files
+*.sqlite3
+
+# Sensitive configuration files
+secrets/
+config.json
+settings.py
+
+# Output of FastAPI documentation build
+docs/_build/
+
+# Python egg cache
+.eggs/
+
+# Docker related
+*.log
+.dockerignore
+Dockerfile
+
+# Other compiled files
+*.lock
+
+# OpenAI API key and others
+openai_key.txt
+
+# Ignore Swagger/OpenAPI JSON files (if dynamically generated)
+openapi.json
+
+# Ignore all node_modules
+node_modules/
+
+# Ignore file uploads and cache
+uploads/
+cache/
