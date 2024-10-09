@@ -7,6 +7,7 @@ import openai  # Assuming GPT-4 API from OpenAI is being used
 from app.core.config import settings
 from pydantic import BaseModel
 
+openai.api_key = "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"  # Replace with your OpenAI API key
 
 router = APIRouter()
 
