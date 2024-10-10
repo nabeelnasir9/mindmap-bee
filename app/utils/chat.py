@@ -11,7 +11,7 @@ print(os.getenv("OPENAI_API_KEY"))
 def chat_with_gpt(query: str) -> str:
     try:
         response = openai.ChatCompletion.create(
-            model="gpt-4", messages=[{"role": "user", "content": query}], max_tokens=150
+            model="gpt-4", messages=[{"role": "user", "content": query}], max_tokens=1000
         )
         return response.choices[0].message["content"].strip()
     except Exception as e:
