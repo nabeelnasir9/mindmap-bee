@@ -6,14 +6,20 @@ from pymongo.database import Database
 import openai  # Assuming GPT-4 API from OpenAI is being used
 from app.core.config import settings
 from pydantic import BaseModel
+import os
+from dotenv import load_dotenv
 
-openai.api_key = "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"  # Replace with your OpenAI API key
+load_dotenv()
+
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 router = APIRouter()
 
-# 
+
+#
 class ChatRequest(BaseModel):
     query: str
+
 
 @router.post("/chat")
 async def chat_with_notes(
