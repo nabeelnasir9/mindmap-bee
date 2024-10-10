@@ -60,7 +60,7 @@ async def chat_with_notes(
                     "content": f"Here are the notes: {context} \n\nUser's question: {query}",
                 },
             ],
-            max_tokens=150,
+            max_tokens=1100,
         )
         answer = response["choices"][0]["message"]["content"]
 
